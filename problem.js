@@ -13,3 +13,24 @@ CHALLENGE
 - If the password is less than 5 characters, log out "Your password is too short!".
 */
 
+//define the variable "password"//
+//create the boolean for the password being forgotten or not//
+//create the function and function name and its variables//
+//state the else statements for when the password does not match using the variables from the if statements//
+//*NOTE* I find difficulty in syntax and formatting, but the concepts I seem to grasp; the order of what I am supposed to do is where I get confused//
+
+let passwordName = Bobby; 
+function passwordReset (password) {
+if (passwordName !== Bobby) {
+    console.log ("Here is a hint")
+} else {
+    console.log ("Let's reset your account")
+}
+}
+function passwordCheck (password) {
+if (passwordName === Bobby) {
+    console.log ("Access Granted!")
+} else {
+    console.log ("Access Denied!")
+}
+}
